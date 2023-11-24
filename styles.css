@@ -1,0 +1,389 @@
+
+#bg{
+    background-image: url('pic/loginBG.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+#CMP{
+    color: #FFFF;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+
+#pnpLogo {
+    width: 283px;
+    height: 392px;
+    position: absolute;
+    top: 192px;
+    left: 319px;
+}
+
+#lForm{
+    display: flex;
+    width: 437px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #060C36;
+    position: absolute;
+    right: 0px;
+}
+
+#LI{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#txtb{
+    width: 239px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+}
+
+#loginLbl{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#btnform{
+    width: 183px;
+    height: 45px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color: white;
+}
+
+#navbar{
+    background: #060C36;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+}
+
+#navT{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#nav li {
+    float:left;
+}
+
+#nav a {
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none; 
+}
+
+#nav{
+    color: #FFF;
+    width:750px;
+    margin:0 auto;
+    list-style:none;
+}
+
+#navC{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px 14px;
+    background-color: transparent;
+    border: transparent;
+}
+
+#nav{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px 14px;
+    background-color: transparent;
+    border: transparent;
+}
+
+#navC:hover{
+    border-bottom: 5px solid yellow;
+}
+
+  .dropdown {
+    position: absolute; 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    position: absolute;/* Location of the box */
+    top: 166px;;
+    left: 416px; 
+    width: 539px;
+    height: 330px;
+    background-color: none; 
+    border-radius: 10px;
+  }
+    .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    }
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position:absolute;
+  right: 10px;
+}
+
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+#btnReg{
+    width: 465px;
+    height: 57px;
+    border-radius: 5px;
+    background: #060C36;
+    color: #aaaaaa;
+}
+
+
+.modals {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    position: absolute;/* Location of the box */
+    top: 50px;;
+    left: 350px; 
+    width: 636px;
+    height: 528px;
+    background-color: none; 
+    border-radius: 10px;
+    }
+
+
+#dailyR{
+    width: 519px;
+    height: 335px;
+    background: #FFF; 
+    top: 40px; 
+
+}
+
+#dtToday{
+    color: #060C36;
+    font-size: 25px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    top:103px;
+    left: 48px;
+}
+
+#rContent{
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#lblVisitStat{
+    color: black;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top:10px;
+    left: 215px;
+}
+
+#recaptcha-container{
+    position: absolute;
+    top: 235px;
+    left: 180px;
+}
+
+#send{
+    position: absolute;
+    top: 408px;
+    left: 86px;
+    width: 465px;
+    height: 57px;
+    border-radius: 5px;
+    background: #060C36;
+    color: #aaaaaa;
+}
+
+.mHeader{
+    color: #060C36;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    top: 25px;
+    left: 66px;
+}
+
+.mP{
+    position: absolute;
+    top: 141px;
+    left: 104px;
+}
+
+#number{
+    width: 465px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #000;
+
+    background: #F0F2F5;
+    
+
+}
+
+
+
+.p-conf, .n-conf {
+    width: calc(100% - 22px);
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 8px 10px;
+    margin: 4px 0px;
+    background-color: rgba(0, 249, 12, 0.5);
+    display: none;
+}
+.n-conf {
+    border-color: red;
+    background-color: rgba(255, 0, 4, 0.5);
+}
+
+#sidemenu{
+    width: 235px;
+    height: 564px;
+    flex-shrink: 0;
+}
+
+
+#lbluname{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#customAlert {
+    display: none;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+  }
+
+#userform{
+    width: 416px;
+    height: 546px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+#dropdown{
+    width: 253px;
+    height: 29px;
+    flex-shrink: 0;
+    background: #060C36;
+    color: white;
+}
+
+#btnADD{
+    border-radius: 20px;
+    background: #060C36;
+    width: 142px;
+    height: 36px;
+    flex-shrink: 0;
+    color: white;
+    position: absolute;
+    top:495px;
+    left: 52px;
+}
+
+#utable{
+    width: 901px;
+    height: 419px;
+    position: absolute;
+    right: 5px;
+    top: 70px;
+    overflow-x: auto; 
+    overflow-y: auto; 
+    font-size: 13px;
+
+}
